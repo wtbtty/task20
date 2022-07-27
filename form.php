@@ -7,8 +7,8 @@
 <body>
 <h1>お問い合わせ</h1>
 <form action="display.php" method="GET">
-<label for="name1">氏名</label>
-<input type="text" id="name1" name="name2">
+<p>氏名</p>
+<input type="text" name="name">
 <input type="submit" value="送信">
 </form>
 </body>

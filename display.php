@@ -1,3 +1,10 @@
+<?php
+if (!empty($_GET['name'])) {
+	$ans = $_GET['name'];
+} else {
+	$ans = '名前を入力してください';
+}
+?>
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -6,10 +13,7 @@
 </head>
 <body>
 <?php
-if (isset($_GET['name2'])) {
-		echo $_GET['name2'];
-}
+echo $ans;
 ?>
 </body>
 </html>
-
