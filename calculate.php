@@ -13,7 +13,7 @@ if (isset($_GET['birthday']) && isset($_GET['age'])) {
 <html lang="ja">
 <head>
 <meta charset="UTF-8">
-<title>課題2入力</title>
+<title>課題２０用</title>
 </head>
 <body>
 <h1>計算(足し算)</h1>
